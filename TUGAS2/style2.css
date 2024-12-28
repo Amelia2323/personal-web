@@ -1,0 +1,366 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: #f4f4f1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #acc3e4, #2f6abc);
+    padding: 4px 15px;
+    /* kurangi padding atas dan bawah */
+    height: 70px;
+    /* atur tinggi navbar */
+    /* position: fixed; */
+    top: 0;
+    width: 98%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.link {
+    font-size: 15px;
+    /* perkecil tautan */
+    color: #333;
+    /* warna teks */
+    text-decoration: none;
+    margin: 0 10px;
+    /* sesuaikan jarak antar tautan */
+}
+
+.link a {
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.link a:hover {
+    color: #11468f;
+    text-shadow: 1px 1px 30px #11468f;
+}
+
+.logo img {
+    width: 32vh;
+    margin-top: 6vh;
+    padding: 20px;
+}
+
+/* batas navbar */
+
+main {
+    background-image: url(img/Poto1.png);
+    height: 550px;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.nama {
+    margin-left: 10%;
+    margin-top: 12%;
+    text-align: left;
+    position: absolute;
+    left: 50px;
+}
+
+.nama h1 {
+    font-size: 50px;
+    color: #11468f;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+span {
+    color: #0069fd;
+}
+
+.nama p {
+    font-size: 20px;
+    color: #555;
+    margin-top: 1%;
+}
+
+/* batas main */
+
+.container {
+    background-image: url("img/Profilpoto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 70%;
+    margin-top: -90px;
+    margin-left: 15%;
+    border-radius: 15px;
+    padding-bottom: 3rem;
+    box-shadow: 1px 1px 10px #afbdd1;
+}
+
+.container .sub {
+    margin-left: 45%;
+    padding-top: 10%;
+}
+
+.sub h2 {
+    color: #4f87d4;
+    font-size: 40px;
+}
+
+/* batas container1 */
+
+.container2 {
+    text-align: center;
+    margin-top: 10%;
+    color: #11468f;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.container2 h2 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    /* text-shadow: 2px 1px 10px #4f87d4; */
+}
+
+.isi {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.kotak1,
+.kotak2,
+.kotak3 {
+    color: rgb(255, 255, 255);
+    background-color: #acc3e4;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px #11468f;
+    height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kotak1:hover,
+.kotak2:hover,
+.kotak3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container2 .kotak1 img {
+    width: 70px;
+}
+
+.container2 .kotak2 img {
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.container2 .kotak3 img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.container2 h3 {
+    font-size: 20px;
+    color: #11468f;
+}
+
+/* batas container2 */
+
+.container3 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container3 .judul {
+    font-size: 40px;
+    color: #11468f;
+    font-family: 'Playfair Display', serif;
+}
+
+p.satu {
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.magang,
+.bekerja {
+    height: 45%;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px #11468f;
+    background-color: #F9F9FB;
+}
+
+.content {
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 30%;
+}
+
+.magang img {
+    width: 200px;
+}
+
+.magang h2 {
+    font-size: 25px;
+}
+
+.bekerja h2 {
+    font-size: 25px;
+}
+
+.bekerja img {
+    width: 150px;
+}
+
+/* batas container3 */
+
+.container4 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container4 h2 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #11468f;
+    margin-bottom: 5%;
+}
+
+.porto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.konten1 {
+    position: relative;
+    width: 15%;
+    height: 350px;
+}
+
+.konten2 {
+    width: 15%;
+    height: 350px;
+}
+
+.konten3 {
+    width: 15%;
+    height: 350px;
+}
+
+.konten1 img {
+    margin: auto;
+    border-radius: 15px;
+}
+
+.konten2 img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.konten3 img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container4 .porto .konten1,
+.container4 .porto .konten2,
+.container4 .porto .konten3 {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 10px 20px 20px rgb(148, 150, 255);
+}
+
+
+.container4 .porto .konten1:hover,
+.container4 .porto .konten2:hover,
+.container4 .porto .konten3:hover {
+    transform: translateY(-15px);
+    box-shadow: 10px 20px 20px rgb(148, 150, 255);
+}
+
+.container4 .porto .konten1:active,
+.container4 .porto .konten2:active,
+.container4 .porto .konten3:active {
+    transform: translateY(9);
+    box-shadow: 10px 20px 20px rgb(148, 150, 255);
+}
+
+.konten2 h4,
+.konten1 h4,
+.konten3 h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -80px;
+    color: white;
+    font-family: 'poppins';
+    text-shadow: 2px 2px 5px rgb(68, 62, 254),
+        0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+.contfooter {
+    background-color: #b6d0f4;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #b8cce7;
+}
+
+.copy {
+    background-color: #69a2f3;
+    text-align: center;
+    height: 30px;
+}
+
+.contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer1 {
+    width: 100px;
+    font-family: 'Segoe UI';
+}
+
+.footer1 h4 {
+    font-size: 20px;
+}
+
+.footerlink h4 {
+    font-size: 20px;
+}
+
+.footerlink a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerlink a:hover {
+    color: #11468f;
+    text-shadow: 1px 1px 30px #11468f;
+}
+
+.footer2 {
+    text-align: center;
+}
+
+.footer2 h4 {
+    font-size: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: black;
+}
